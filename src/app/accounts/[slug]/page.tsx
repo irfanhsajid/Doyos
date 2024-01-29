@@ -6,7 +6,7 @@ import RegularAccount from "@/components/pages/accounts/regular-account";
 import FundingWithdrawal from "@/components/pages/trading-and-tools/trading-conditions/funding-withdrawal";
 
 const AccountsSlug = ({ params }: { params: { slug: String } }) => {
-    console.log(params);
+    //  console.log(params);
     return (
         <div>
 

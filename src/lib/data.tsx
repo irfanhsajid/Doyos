@@ -476,7 +476,7 @@ export const PricingFeaturesData = [
 export const PricingFeaturesData2 = [
   {
     id: 1,
-    accountType: "Mini",
+    accountType: "ECN",
     platformName: "MetaTrader5",
     commission: "0.0",
     spreads: 1.3,
@@ -491,7 +491,7 @@ export const PricingFeaturesData2 = [
   },
   {
     id: 3,
-    accountType: "Ultimate",
+    accountType: "RAW",
     platformName: "MetaTrader5",
     commission: 6,
     spreads: "0.0",
@@ -554,7 +554,7 @@ export const conditionsFAQ = {
 
 export const AccountTypes = {
 
-  "Mini": {
+  "ECN": {
     "spread": 1.3,
     "minDeposit": 250,
     "commission": "N/A",
@@ -584,7 +584,7 @@ export const AccountTypes = {
     "vpn": "Yes (3 lot monthly)",
     "hedge": "Allow"
   },
-  "Ultimate": {
+  "RAW": {
     "spread": 0,
     "minDeposit": 20000,
     "commission": 6,
